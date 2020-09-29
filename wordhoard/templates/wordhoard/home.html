@@ -1,0 +1,34 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>Barney's Word-Hoard</title>
+
+	<link rel="stylesheet" href="{% static 'wordhoard/css/stylesheet.css' %}">
+</head>
+<body>
+	<div id='App'>
+		<h1 id='title'>Barney's Word-Hoard</h1>
+		<p id='subtitle'>An introduction to Old English Vocabulary.</p>
+		<div class='flashcard'>
+			<div id='word'>
+				<h3> WORD </h3>
+			</div>
+			<div id='flip-button'>
+				<h5> FLIP </h5>
+			</div>
+		</div>
+	</div>
+
+	<!-- Vue.js 2 -->
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!-- Axios -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script> 
+    <!-- Script.js-->
+	<script src="{% static 'wordhoard/js/script.js' %}"></script>
+</body>
+</html>

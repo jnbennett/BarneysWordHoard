@@ -1,0 +1,36 @@
+#App{
+	background-color: #EBE9D5;
+	height: 100%;
+	width: 100%;
+}
+
+#title{
+	font-weight: 500;
+	text-shadow: 1px;
+	text-align: center;
+}
+
+#subtitle{
+	text-align: center;
+}
+
+.flashcard{
+	border-style: solid;
+	border-width: 1px;
+	width: 400px;
+	height: 250px;
+	background-color: #F6F6ED;
+}
+
+#word{
+	font-size: 18px;
+	margin-top: 5em;
+	margin-bottom: 5em;
+	text-align: center;
+}
+
+#flip-button{
+	font-size: 12px;
+	text-align: right;
+	margin-right: 5em;
+}
